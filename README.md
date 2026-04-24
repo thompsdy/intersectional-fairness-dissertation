@@ -1,17 +1,28 @@
 # Intersectional Fairness in Machine Learning: An Analysis Using Oxonfair.
 Dylan Thompson — MSc Computer Science, Trinity College Dublin, 2026
 
+## Requirements
+
+Python 3.13.5 was used for development. Run `python3 --version` to check yours.
+
 ## Steps
 
 **1. Install dependencies**
+```bash
+pip3 install -r requirements.txt
 ```
-pip install -r requirements.txt
+
+If pip3 installs to a different Python, use the full path:
+```bash
+/Library/Frameworks/Python.framework/Versions/3.13/bin/pip3 install -r requirements.txt
 ```
 
 **2. Open the notebook**
-```
+```bash
 jupyter notebook reproduce_dissertation.ipynb
 ```
+
+In VS Code: open `reproduce_dissertation.ipynb`, click the kernel selector (top right), and select the Python 3.13 interpreter where you ran pip3.
 
 **3. Run all cells top to bottom**
 
