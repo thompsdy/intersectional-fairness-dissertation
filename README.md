@@ -26,7 +26,7 @@ In VS Code: open `reproduce_dissertation.ipynb`, click the kernel selector (top 
 
 **3. Run all cells top to bottom**
 
-ACS datasets download automatically on first run — internet required.
+ACS datasets download automatically on first run.
 
 The notebook is fully self-contained. Section 8 covers the three-attribute extension (sex x age x race, 8 groups).
 
